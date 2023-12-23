@@ -103,7 +103,8 @@ function App() {
 
 
 
-          <Route path="/aboutus" element={<AboutUs />} />
+          {/* <Route path="/aboutus" element={<AboutUs />} /> */}
+          <Route path={'/aboutus'} element={<AboutUs />} />
           <Route path="/" element={<HomePage />} />
           {/* <Route path="/jobsection" element={<JobSection />} />
           <Route path="/jobdetails/:id" element={<JobDetailsById />} /> */}
